@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+
+        "name": "WordPress Killed Me",
+        "description": "This extension alerts you when you're visiting a WordPress website and allows you to rate how bad it is",
+        "version": "1.0",
+        "content_scripts": [{
+            "matches": ["http://*/*", "https://*/*"],
+            "js": ["my-style.js"]
+        }]
+}
